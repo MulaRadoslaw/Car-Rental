@@ -39,5 +39,3 @@ def signup():
         print("1 record inserted, ID:", mycursor.lastrowid)
     except ValueError:
         print("Bye.")
-
-signup()
